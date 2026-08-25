@@ -310,7 +310,7 @@ Crie o arquivo `exercicio4.js` com um vetor de objetos. Cada objeto deve represe
 
 Requisitos:
 
-- Cadastre pelo menos quatro produtos.
+- Criar o vetor com pelo menos quatro produtos.
 - Use um laço para mostrar o nome e o preço de cada produto.
 - Calcule o valor total do estoque de cada produto (`preco * estoque`).
 - Mostre qual produto possui o maior valor total em estoque.
