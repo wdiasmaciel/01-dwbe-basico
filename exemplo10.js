@@ -13,4 +13,4 @@ let multiplicacao = (x, y) => { return x * y; };
 console.log("Multiplicação: " + multiplicacao(6, 7));
 
 let divisao = (x, y) => x / y;
-console.log("Divisão: " + divisao(6, 7).toFixed(2));
+console.log("Divisão: " + divisao(6, 7).toFixed(3));
