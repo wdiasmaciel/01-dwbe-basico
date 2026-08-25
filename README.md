@@ -130,37 +130,38 @@ Analisar o arquivo package.json, gerado após a execução do comando npm init.
 
 Executar o comando npm init com a flag (tag) yes (-y), para iniciar o arquivo package.json com valores default (sem precisar informar as respostas para as perguntas de criação do projeto):
 
-   ```bash
-    npm init -y
-   ```
-   
+```bash
+npm init -y
 ```
-    {
+   
+```javascript
+{
     "name": "01-dwbe-node-basico",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
     "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+       "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wdiasmaciel/01-node.git"
+      "type": "git",
+      "url": "git+https://github.com/wdiasmaciel/01-node.git"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "type": "commonjs",
     "bugs": {
-    "url": "https://github.com/wdiasmaciel/01-node/issues"
+      "url": "https://github.com/wdiasmaciel/01-node/issues"
     },
     "homepage": "https://github.com/wdiasmaciel/01-node#readme"
-    }
+}
 ```
 
 ---
 
 ## Estrutura
+
 No VS Code, analisar o arquivo e a estrutura de diretório criada.
 
 ---
