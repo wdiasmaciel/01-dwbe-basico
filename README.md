@@ -1,4 +1,4 @@
-# 01-dwbe-basico
+# 01-dwbe-node-basico
 
 # Fundamentos de Desenvolvimento Back-End com Node
 
@@ -46,7 +46,7 @@ Quando iniciamos um projeto back-end, precisamos preparar o ambiente para que o 
 Requisitos:
 - Instalar o Node.js: https://nodejs.org/
 
-- No Linux e Codespace:
+- No Linux, e no GitHub Codespaces:
    
 ```bash
 sudo apt install nodejs npm
@@ -54,21 +54,22 @@ sudo apt install nodejs npm
 
 Verificando a instalação:
    
-   ```bash
-   node -v
-   ```
-   
-   ```bash
-   npm -v
-   ```
+```bash
+node -v
+```
+
+```bash
+npm -v
+```
 
 ---
 ## Criar um Projeto Usando o Node
+
 Executar o comando:
 
-   ```bash
-   npm init
-   ```
+```bash
+npm init
+```
 
 - Informar o nome do projeto, ou apenas pressionar a tecla <ENTER>: meu-app
 
@@ -92,32 +93,33 @@ Executar o comando:
 
 Analisar o JSON gerado. Se estiver correto, informar: <ENTER>, yes, ou y. Se estiver errado, pressionar qualquer outra tecla.
 
+```javascript
+{
+   "name": "meu-app",
+   "version": "1.0.0",
+   "description": "meu aplicativo back-end",
+   "main": "index.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/wdiasmaciel/01-node.git"
+   },
+   "keywords": [
+      "Web",
+      "Back-end"
+   ],
+   "author": "Wesley",
+   "license": "ISC",
+   "type": "module",
+   "bugs": {
+      "url": "https://github.com/wdiasmaciel/01-node/issues"
+   },
+   "homepage": "https://github.com/wdiasmaciel/01-node#readme"
+}
 ```
-    {
-    "name": "meu-app",
-    "version": "1.0.0",
-    "description": "meu aplicativo back-end",
-    "main": "index.js",
-    "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wdiasmaciel/01-node.git"
-    },
-    "keywords": [
-    "Web",
-    "Back-end"
-    ],
-    "author": "Wesley",
-    "license": "ISC",
-    "type": "module",
-    "bugs": {
-    "url": "https://github.com/wdiasmaciel/01-node/issues"
-    },
-    "homepage": "https://github.com/wdiasmaciel/01-node#readme"
-    }
-```
+
 --- 
 
 ## package.json
