@@ -229,6 +229,13 @@ Na seção de script do arquivo package.json, criar a entrada abaixo:
    "exe1": "node exemplo1.js" 
    ```
 
+   ```
+     "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "exe1": "node exemplo1.js" 
+  }
+```
+
 No terminal, executar:
 
 npm run exe1.
