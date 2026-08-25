@@ -18,6 +18,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "exe1": "node exemplo1.js",
-    "exe2": "node exemplo2.js" 
+    "exe2": "node exemplo2.js",
+    "exe3": "node exemplo3.js" 
   }
 }
