@@ -25,7 +25,7 @@ let resultadoMap = vet.map(function(elemento, indice) {
   return elemento += " alterado";
 });
 /*
- * resultado = undefined, pois .forEach() não retorna valor, 
- * apenas executa a função para cada elemento do vetor.
+ * resultado = casa alterado,carro alterado,true alterado,6.7 alterado,1,2,3 alterado, 
+ * pois .map() executa a função para cada elemento do vetor eretorna valor.
  */ 
 console.log("resultado = " + resultadoMap);
