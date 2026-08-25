@@ -132,7 +132,7 @@ Executar o comando npm init com a flag (tag) yes (-y), para iniciar o arquivo pa
     npm init -y
    ```
    
-    ```javascript
+    ```bash
     {
     "name": "01-node",
     "version": "1.0.0",
