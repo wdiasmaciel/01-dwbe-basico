@@ -238,5 +238,5 @@ Na seção de script do arquivo package.json, criar a entrada abaixo:
 
 No terminal, executar:
 
-npm run exe1.
+npm run exe1
 
