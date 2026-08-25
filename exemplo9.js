@@ -9,3 +9,7 @@ let obj = {
 for (let chave in obj) 
   console.log(chave + ": " + obj[chave]);
 
+console.log('\n');
+
+for (let chave of Object.keys(obj)) 
+  console.log(chave + ": " + obj[chave]);
