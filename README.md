@@ -269,6 +269,16 @@ Incluir as automações dos demais exemplos na seção de `script` do arquivo `p
 
 --- 
 
+# GitHub
+
+Execute o comando abaixo:
+
+```bash
+git add . && git commit -m "Exemplo" && git push
+```
+
+---
+
 # Exercício
 
 Resolva os exercícios a seguir criando um arquivo JavaScript para cada um. Sempre que possível, crie também um script no `package.json` para executar o exercício com `npm run`. Não é necessário instalar bibliotecas externas.
