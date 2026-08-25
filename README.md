@@ -134,7 +134,7 @@ Executar o comando npm init com a flag (tag) yes (-y), para iniciar o arquivo pa
    
 ```
     {
-    "name": "01-node",
+    "name": "01-dwbe-node-basico",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",

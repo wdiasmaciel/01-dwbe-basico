@@ -1,0 +1,21 @@
+{
+  "name": "01-dwbe-node-basico",
+  "version": "1.0.0",
+  "description": "Compreender os conceitos iniciais do desenvolvimento back-end com Node: criar o primeiro projeto.",
+  "keywords": [],
+  "homepage": "https://github.com/wdiasmaciel/01-dwbe-basico#readme",
+  "bugs": {
+    "url": "https://github.com/wdiasmaciel/01-dwbe-basico/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wdiasmaciel/01-dwbe-basico.git"
+  },
+  "license": "ISC",
+  "author": "Wesley",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
