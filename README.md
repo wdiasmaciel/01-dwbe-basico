@@ -215,33 +215,59 @@ Criar o arquivo `.gitignore` em seu projeto. Esse arquivo lista os arquivos e di
 
 ## README.md
 
-`README.md`: arquivo que descreve o projeto. Funciona como um "cartão de visitas" ou manual de instruções do projeto. Em repositórios, como o GitHub, é a primeira página que os
-visitantes, colaboradores ou recrutadores leem para entender o que é o seu software e como utilizá-lo.
+`README.md`: arquivo que descreve o projeto. Funciona como um "cartão de visitas" ou manual de instruções do projeto. 
+
+Em repositórios, como o GitHub, é a primeira página que os visitantes, colaboradores ou recrutadores leem para entender o que é o seu software e como utilizá-lo.
+
+--- 
 
 ## Olá, Mundo!
 
 Criar o arquivo `exemplo1.js` com o conteúdo abaixo:
 
-   ```javascript
-   console.log("Olá, Mundo!");
-   ```
-
-Na seção de script do arquivo package.json, criar a entrada abaixo:
-
-   ```javascript
-   "exe1": "node exemplo1.js" 
-   ```
-
+```javascript
+console.log("Olá, Mundo!");
 ```
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "exe1": "node exemplo1.js" 
-  }
+
+Na seção de `script` do arquivo `package.json`, criar a entrada abaixo:
+
+```javascript
+"exe1": "node exemplo1.js" 
+```
+
+Exemplo:
+
+```javascript
+"scripts": {
+   "test": "echo \"Error: no test specified\" && exit 1",
+   "exe1": "node exemplo1.js" 
+}
 ```
 
 No terminal, executar:
 
+```bash
 npm run exe1
+```
+
+Incluir as automações dos demais exemplos na seção de `script` do arquivo `package.json`. Exemplo:
+
+```javascript
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "exe1": "node exemplo1.js",
+    "exe2": "node exemplo2.js",
+    "exe3": "node exemplo3.js",
+    "exe4": "node exemplo4.js",
+    "exe5": "node exemplo5.js",
+    "exe6": "node exemplo6.js",
+    "exe7": "node exemplo7.js",
+    "exe8": "node exemplo8.js",
+    "exe9": "node exemplo9.js" 
+  }
+```
+
+--- 
 
 # Exercício
 
