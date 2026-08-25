@@ -229,8 +229,8 @@ Na seção de script do arquivo package.json, criar a entrada abaixo:
    "exe1": "node exemplo1.js" 
    ```
 
-   ```
-     "scripts": {
+```
+  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "exe1": "node exemplo1.js" 
   }
