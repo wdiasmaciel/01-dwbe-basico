@@ -22,6 +22,7 @@
     "exe3": "node exemplo3.js",
     "exe4": "node exemplo4.js",
     "exe5": "node exemplo5.js",
-    "exe6": "node exemplo6.js" 
+    "exe6": "node exemplo6.js",
+    "exe7": "node exemplo7.js" 
   }
 }
