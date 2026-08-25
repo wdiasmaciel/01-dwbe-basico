@@ -240,3 +240,86 @@ No terminal, executar:
 
 npm run exe1
 
+# Exercício
+
+Resolva os exercícios a seguir criando um arquivo JavaScript para cada um. Sempre que possível, crie também um script no `package.json` para executar o exercício com `npm run`. Não é necessário instalar bibliotecas externas.
+
+## Exercício 1: Boletim do aluno
+
+Crie o arquivo `exercicio1.js` para calcular a média de três notas de um aluno.
+
+Requisitos:
+
+- Declare o nome do aluno e três notas usando variáveis.
+- Calcule e mostre a média com duas casas decimais.
+- Informe `Aprovado` quando a média for maior ou igual a 7; caso contrário, informe `Reprovado`.
+- Teste o programa com pelo menos dois conjuntos diferentes de notas.
+
+Exemplo de saída:
+
+```text
+Aluno: Ana
+Média: 8.33
+Situação: Aprovado
+```
+
+## Exercício 2: Tabuada e somatório
+
+Crie o arquivo `exercicio2.js` para exibir a tabuada de um número inteiro de 1 a 10.
+
+Requisitos:
+
+- Armazene o número da tabuada em uma variável.
+- Use um laço `for` para mostrar as dez multiplicações.
+- Ao final, mostre a soma dos dez resultados da tabuada.
+
+Exemplo para o número 5:
+
+```text
+5 x 1 = 5
+...
+5 x 10 = 50
+Soma dos resultados: 275
+```
+
+## Exercício 3: Análise de uma lista
+
+Crie o arquivo `exercicio3.js` com um vetor contendo pelo menos seis números inteiros.
+
+Requisitos:
+
+- Percorra o vetor usando um laço.
+- Mostre o maior valor, o menor valor e a soma dos elementos.
+- Calcule e mostre a média dos valores.
+- Conte quantos números são pares e quantos são ímpares.
+
+Exemplo de resultado:
+
+```text
+Maior: 18
+Menor: 3
+Soma: 57
+Média: 9.50
+Pares: 3
+Ímpares: 3
+```
+
+## Exercício 4: Cadastro de produtos
+
+Crie o arquivo `exercicio4.js` com um vetor de objetos. Cada objeto deve representar um produto e conter `nome`, `preco` e `estoque`.
+
+Requisitos:
+
+- Cadastre pelo menos quatro produtos.
+- Use um laço para mostrar o nome e o preço de cada produto.
+- Calcule o valor total do estoque de cada produto (`preco * estoque`).
+- Mostre qual produto possui o maior valor total em estoque.
+- Mostre apenas os produtos cujo estoque seja maior que zero.
+
+Exemplo de saída:
+
+```text
+Produto: Teclado | Preço: R$ 80.00 | Valor em estoque: R$ 240.00
+Produto com maior valor em estoque: Monitor
+```
+
