@@ -132,7 +132,7 @@ Executar o comando npm init com a flag (tag) yes (-y), para iniciar o arquivo pa
     npm init -y
    ```
    
-    ```bash
+```
     {
     "name": "01-node",
     "version": "1.0.0",
@@ -154,7 +154,7 @@ Executar o comando npm init com a flag (tag) yes (-y), para iniciar o arquivo pa
     },
     "homepage": "https://github.com/wdiasmaciel/01-node#readme"
     }
-    ```
+```
 
 ---
 
@@ -226,7 +226,7 @@ Criar o arquivo `exemplo1.js` com o conteúdo abaixo:
 Na seção de script do arquivo package.json, criar a entrada abaixo:
 
    ```javascript
-   'exe1': 'node exemplo1.js' 
+   "exe1": "node exemplo1.js" 
    ```
 
 No terminal, executar:
