@@ -48,9 +48,9 @@ Requisitos:
 
 - No Linux e Codespace:
    
-   ```bash
-   sudo apt install nodejs npm
-   ```
+```bash
+sudo apt install nodejs npm
+```
 
 Verificando a instalação:
    
