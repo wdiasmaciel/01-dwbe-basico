@@ -1,11 +1,4 @@
-let obj = {
-  'imovel': 'casa', 
-  'veiculo': "carro", 
-  'vendido': true, 
-  'preco': 6.7, 
-  'meses': [1, 2, 3]
-};
+let vet = ['casa', "carro", true, 6.7, [1, 2, 3]]
 
-for (let chave in obj) 
-  console.log(chave + ": " + obj[chave]);
-
+for (let i = 0; i < vet.length; i++) 
+  console.log(`vet[${i}] = ${vet[i]}`);

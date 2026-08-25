@@ -1,2 +1,6 @@
-for (let i = 0; i < 10; i++) 
-  console.log(`i = ${i}`);
+let cont = 0;
+
+do {
+  console.log(`Contador: ${cont}`);
+  cont++;
+} while(cont < 10);
