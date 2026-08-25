@@ -92,7 +92,7 @@ Executar o comando:
 
 Analisar o JSON gerado. Se estiver correto, informar: <ENTER>, yes, ou y. Se estiver errado, pressionar qualquer outra tecla.
 
-    ```javascript
+```
     {
     "name": "meu-app",
     "version": "1.0.0",
@@ -117,7 +117,7 @@ Analisar o JSON gerado. Se estiver correto, informar: <ENTER>, yes, ou y. Se est
     },
     "homepage": "https://github.com/wdiasmaciel/01-node#readme"
     }
-    ```
+```
 --- 
 
 ## package.json
