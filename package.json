@@ -26,6 +26,7 @@
     "exe07": "node 07-exemplo.js",
     "exe08": "node 08-exemplo.js",
     "exe09": "node 09-exemplo.js",
-    "exe10": "node 10-exemplo.js"
+    "exe10": "node 10-exemplo.js",
+    "git": "git add . && git commit -m \"atualizando\" && git push"
   }
 }
