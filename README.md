@@ -133,6 +133,8 @@ Executar o comando npm init com a flag (tag) yes (-y), para iniciar o arquivo pa
 ```bash
 npm init -y
 ```
+
+Arquivo `package.json`:
    
 ```javascript
 {
@@ -159,7 +161,7 @@ npm init -y
 ```
 
 **OBS**: no arquivo `package.json`, substituir `"type": "commonjs",` por `"type": "module",`.
- 
+
 ---
 
 ## Estrutura
