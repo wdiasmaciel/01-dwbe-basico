@@ -255,16 +255,18 @@ Incluir as automações dos demais exemplos na seção de `script` do arquivo `p
 ```javascript
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "exe01": "node 01-exemplo-sequencial.js",
-    "exe02": "node 02-exemplo-sequencial.js",
-    "exe03": "node 03-exemplo-condicional.js",
-    "exe04": "node 04-exemplo-condicional.js",
-    "exe05": "node 05-exemplo-repeticao.js",
-    "exe06": "node 06-exemplo-repeticao.js",
-    "exe07": "node 07-exemplo-repeticao.js",
-    "exe08": "node 08-exemplo-vetor.js",
-    "exe09": "node 09-exemplo-objeto.js",
-    "exe10": "node 10-exemplo-funcao.js"
+    "exe01": "node 01-estrutura-sequencial.js",
+    "exe01": "node 02-estrutura-sequencial.js",
+    "exe01": "node 03-estrutura-sequencial.js",
+    "exe02": "node 02-estrutura-sequencial.js",
+    "exe03": "node 03-estrutura-condicional.js",
+    "exe04": "node 04-estrutura-condicional.js",
+    "exe05": "node 05-estrutura-de-repeticao.js",
+    "exe06": "node 06-estrutura-de-repeticao.js",
+    "exe07": "node 07-estrutura-de-repeticao.js",
+    "exe08": "node 08-vetor.js",
+    "exe09": "node 09-objeto.js",
+    "exe10": "node 10-funcao.js"
   }
 ```
 

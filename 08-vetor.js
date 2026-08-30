@@ -26,6 +26,6 @@ let resultadoMap = vet.map(function(elemento, indice) {
 });
 /*
  * resultado = casa alterado,carro alterado,true alterado,6.7 alterado,1,2,3 alterado, 
- * pois .map() executa a função para cada elemento do vetor eretorna valor.
+ * pois .map() executa a função para cada elemento do vetor e retorna valor.
  */ 
 console.log("resultado = " + resultadoMap);
