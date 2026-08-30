@@ -256,8 +256,6 @@ Incluir as automações dos demais exemplos na seção de `script` do arquivo `p
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "exe01": "node 01-estrutura-sequencial.js",
-    "exe01": "node 02-estrutura-sequencial.js",
-    "exe01": "node 03-estrutura-sequencial.js",
     "exe02": "node 02-estrutura-sequencial.js",
     "exe03": "node 03-estrutura-condicional.js",
     "exe04": "node 04-estrutura-condicional.js",
@@ -266,7 +264,8 @@ Incluir as automações dos demais exemplos na seção de `script` do arquivo `p
     "exe07": "node 07-estrutura-de-repeticao.js",
     "exe08": "node 08-vetor.js",
     "exe09": "node 09-objeto.js",
-    "exe10": "node 10-funcao.js"
+    "exe10": "node 10-funcao.js",
+    "git": "git add . && git commit -m \"atualizando\" && git push"
   }
 ```
 
