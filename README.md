@@ -158,6 +158,8 @@ npm init -y
 }
 ```
 
+**OBS**: no arquivo `package.json`, substituir `"type": "commonjs",` por `"type": "module",`.
+ 
 ---
 
 ## Estrutura
