@@ -253,18 +253,18 @@ npm run exe1
 Incluir as automações dos demais exemplos na seção de `script` do arquivo `package.json`. Exemplo:
 
 ```javascript
-"scripts": {
+  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "exe01": "node 01-exemplo.js",
-    "exe02": "node 02-exemplo.js",
-    "exe03": "node 03-exemplo.js",
-    "exe04": "node 04-exemplo.js",
-    "exe05": "node 05-exemplo.js",
-    "exe06": "node 06-exemplo.js",
-    "exe07": "node 07-exemplo.js",
-    "exe08": "node 08-exemplo.js",
-    "exe09": "node 09-exemplo.js",
-    "exe10": "node 10-exemplo.js"
+    "exe01": "node 01-exemplo-sequencial.js",
+    "exe02": "node 02-exemplo-sequencial.js",
+    "exe03": "node 03-exemplo-condicional.js",
+    "exe04": "node 04-exemplo-condicional.js",
+    "exe05": "node 05-exemplo-repeticao.js",
+    "exe06": "node 06-exemplo-repeticao.js",
+    "exe07": "node 07-exemplo-repeticao.js",
+    "exe08": "node 08-exemplo-vetor.js",
+    "exe09": "node 09-exemplo-objeto.js",
+    "exe10": "node 10-exemplo-funcao.js"
   }
 ```
 
