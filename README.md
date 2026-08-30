@@ -135,7 +135,7 @@ npm init -y
 ```
 
 Arquivo `package.json`:
-   
+
 ```javascript
 {
     "name": "01-dwbe-node-basico",
@@ -160,8 +160,31 @@ Arquivo `package.json`:
 }
 ```
 
-**OBS**: no arquivo `package.json`, substituir `"type": "commonjs",` por `"type": "module",`.
+**OBS**: no arquivo `package.json`, substituir `"type": "commonjs",` por `"type": "module",`:
 
+```javascript
+{
+    "name": "01-dwbe-node-basico",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+       "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/wdiasmaciel/01-node.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "module",
+    "bugs": {
+      "url": "https://github.com/wdiasmaciel/01-node/issues"
+    },
+    "homepage": "https://github.com/wdiasmaciel/01-node#readme"
+}
+```
 ---
 
 ## Estrutura
